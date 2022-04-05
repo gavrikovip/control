@@ -28,3 +28,9 @@ for (int i = 0; i < arrayData.Length; i++)
    
 }
 
+// Вывод массива на экран
+Console.WriteLine("Изначальный массив");
+PrintArray(arrayData);
+Console.WriteLine();
+Console.WriteLine("Итоговый массив");
+PrintArray(arrayFinal);
