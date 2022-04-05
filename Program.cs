@@ -3,7 +3,16 @@
 
 //Метод печати массива не выводя пустые строки
 
-
+void PrintArray(string[] arr)
+{
+    Console.Write("[");
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if(arr[i] != null)
+        Console.Write($" '{arr[i]}'");
+    }
+    Console.Write(" ]");
+}
 
 // Задаем массив
 string[] arrayData = {"hello", "2", "world", ":-)"};
